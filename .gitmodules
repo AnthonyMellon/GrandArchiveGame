@@ -1,0 +1,3 @@
+[submodule "GrandArchiveGame/Assets/CardGameCore"]
+	path = GrandArchiveGame/Assets/CardGameCore
+	url = https://github.com/AnthonyMellon/CardGameCore.git
