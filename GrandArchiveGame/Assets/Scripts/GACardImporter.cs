@@ -4,8 +4,21 @@ using UnityEngine;
 
 public class GACardImporter : CardImporter
 {
+    public List<Card> cards = new List<Card>();
+
     private void ImportCards()
     {
         
     }
+}
+public class Meta
+{
+    public int page { get; set; }
+    public int total_cards { get; set; }
+    public int paginated_cards_count { get; set; }
+    public int page_size { get; set; }
+    public bool has_more { get; set; }
+    public int total_pages { get; set; }
+    public string sort { get; set; }
+    public string order { get; set; }
 }
