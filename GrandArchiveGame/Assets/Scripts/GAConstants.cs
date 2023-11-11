@@ -18,4 +18,6 @@ public static class GAConstants
         Draw,
         Attack
     }
+
+    public static string ApiURL = "https://api.gatcg.com/cards/search?page=";
 }
