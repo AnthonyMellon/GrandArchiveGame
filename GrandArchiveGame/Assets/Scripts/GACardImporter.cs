@@ -1,14 +1,16 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEditor;
 
 public class GACardImporter : CardImporter
 {
     public List<Card> cards = new List<Card>();
 
+    [MenuItem("CardGame/GetJSON")]
     private void ImportCards()
     {
-        
+        APIManager.DownloadJSON(1);
     }
 }
 public class Meta
